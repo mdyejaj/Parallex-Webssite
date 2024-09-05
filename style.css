@@ -1,0 +1,47 @@
+html,body{
+    height: 100%;
+    margin:0;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666766;
+}
+.background-img1{
+    background-image: url(/img/flower3.png);
+    min-height: 100%;
+}
+.background-img2{
+    background-image: url(/img/Background.png);
+    min-height: 400px;
+    min-height: 400px;
+}
+.background-img1, .background-img2, 
+.background-img3, .background-img1{
+    position: relative;
+}
+
+.paragraph-text{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+.text-Background{
+    background-color: #ff0000;
+    padding: 20px;
+    border-radius: 8px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: #797979;
+    color: #fff;
+}
