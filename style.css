@@ -5,22 +5,32 @@ html,body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: #666766;
+    color: #abe7ab;
 }
 .background-img1{
-    background-image: url(/img/flower3.png);
+    background-image: url(/img/flower4.png);
     min-height: 100%;
 }
 .background-img2{
-    background-image: url(/img/Background.png);
-    min-height: 400px;
+    background-image: url(/img/flower3.png);
     min-height: 400px;
 }
-.background-img1, .background-img2, 
+.background-img3{
+    background-image: url(/img/flower2.png);
+    min-height: 400px;
+}
+.background-img4{
+    background-image: url(/img/flower5.jpeg);
+    min-height: 400px;
+
+}
+.background-img4, .background-img2, 
 .background-img3, .background-img1{
     position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
 .paragraph-text{
     position: absolute;
     top: 45%;
@@ -42,6 +52,7 @@ html,body{
     text-align: center;
 }
 .section-light{
-    background-color: #797979;
-    color: #fff;
+    background-color: #b5ecb8;
+    color: #ff0000;
+    font-size: 25px;
 }
